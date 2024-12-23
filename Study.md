@@ -92,7 +92,7 @@ This Document will be broken in chucks that correlate to the videos in order of 
     One way to determine if your Backlight has failed is to point a flashlight at the screen if you can make out some of the information on the screen it is likely your screen is fine but the backlight itself has failed
 
     For CCFL displays you may be able to just replace the converter to fix the problem but on other dispalys you might have to replace the whole screen you will have to check the documentation to determine what to do for your model.
--Digitizer
+- Digitizer
     If you are using a hybrid type laptop (One with a keyboard tablet type setup) you might use something like a pen device to give inputs this is useful for graphical type input and this type of input is possible due to a part called a digitizer by converting analog input into digital signals that the computer to use.
 
     Another type of use case for a digitizer would be in the case of a touchscreen.
@@ -133,3 +133,46 @@ This Document will be broken in chucks that correlate to the videos in order of 
     You can turn you phone into a wifi hotspot allowiong anyone to connect to your phone using 802.11 
 
     Not all phones support this hotspot connectivity and it may cost more to unlock this feature from your provider
+
+# Mobile Device Accessories 1.3 #
+
+- Touch Pens
+    Allows for users to activate the interface without touching it 
+
+    Good for note taking or signatures as well as precise selections
+- Active Sylus
+    Provides more percision than a touchpen
+
+    the stylus communicates direclty to the device and is sometimes pressure sensative with the ability to have extra programmable buttons
+- Drawing pad
+    If your device does not have a active stylus capability you can add a Drawing pad with an active stylus that uses a external digitizer to give you that very precise input
+
+    Third party device that supports many OS
+- Trackpad
+    Replaces the mouse on laptops and is built in
+
+    there are also external trackpads that are bluetooth connected and battery powered
+
+    on some laptops you are able to disable the trackpad
+- Headsets
+    Hands Free audio using bluetooth or wired connections
+
+    For wired connections USB is common for many computers  
+    
+    3.5 mm jack that uses a TRRS connector (tip-ring-ring-sleeve)
+
+    For apple devices you can use the lightning port instead
+- Speakers
+    External speakers connect to your device over a bluetooth connection and can improve audio quality significantly 
+- Camera/webcam
+    commonly external on desktops but internal on laptops
+
+    allows for multimedia applications, photos and video conferencing
+- Docking Station
+    Allows for quick access to many needed ports or set up your laptop in a place it typically always is
+
+    can extend laptop interface with extra ports
+
+    I use this to set uop my desktop at home and instantly connect my speakers and HDMI easily with one connection
+- Port Replicator
+    Similar to as docking station but does not commonly have a expansion card option and usually connects via USB

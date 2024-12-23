@@ -176,3 +176,57 @@ This Document will be broken in chucks that correlate to the videos in order of 
     I use this to set uop my desktop at home and instantly connect my speakers and HDMI easily with one connection
 - Port Replicator
     Similar to as docking station but does not commonly have a expansion card option and usually connects via USB
+
+# Cellular Standards 1.4 #
+
+- Cellular Networks
+    Seperates land into 'cells' where antenna cover a cell with certain frequencies
+
+    some of the original networks were 2G networks and they consisted of 2 global standards
+    
+    These networks were good for trasmitting voice communication but had very limmited ability to send data over these networks. They were originally circuit switch networks and needed to be upgraded for data connectivity.
+- GSM (global system for mobile communications) 
+    This included about %90 of the marked and was originally an EU standard with worldwide coverage
+
+    Used by AT&T and T-Mobile in the USA and allowed you to move you SIM card (Subscriber Identity Module) from phone to phone
+
+    Originally GSM standard used multiplexing which is where everyone got their own little slice of time
+- CDSM (Code Division Multiple Access)
+    Everyone communicates at the same time
+
+    Each call uses a diffrent code
+
+    The codes were used to filter each call on the receiving side
+
+    Mainly used by Verison and Sprint but not much adoption worldwide
+- 3G Technology
+    introduced in 1998 and allowed for much more capabilities of data transfer speed (ususally several megabits per second)
+
+    Bandwith improvments allowed for new functionality like GPS, mobile television and video on demand
+- 4G and LTE
+    Long term Evolution (LTE) is a 4G technology 
+
+    Converged standards from GSM and CDMA providers
+
+    Is based on GSM and EDGE (Enhanced Data Rates for GSM Evolution) 
+
+    standard supports download rates of 150 Mbits/s
+
+    LTE Advanced (LTE-A) was found in some areas allowing for double the download rates hitting up to 300 Mbits/s with best connection
+- 5G 
+    Fith Generation of cellulat networking and was launced in 2020
+
+    Signigficant performance improvements including the abiity to one day have 5G performing at 10 gigabits per second and can currently work at about 100-900 Mbits/s
+
+    Significant IoT (Internet of Things) impact if bandwith becones less of a problem allowing for greater data transfer from these devices which can help identify and monitor notification or allow additionl cloud processing 
+- Updates
+    Many of the updates for these celuular standars happen withing the software of the device itself 
+
+    PRL Updates (Preferred Roaming List) allows for you device to identify specific towers that you device will regulary connect to 
+
+    If you see a OTA update (Over the air) it may hve to due with an update to your Roaming list to ensure the propper expected connection to towers
+- Hotspots
+    On some mobile phones you can merge your Celluar network into a 802.11 network
+
+    This effectively turns your phone into a cellular router allowing for any device using 802.11 can connect to your pone to use the internet
+

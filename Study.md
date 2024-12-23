@@ -230,3 +230,76 @@ This Document will be broken in chucks that correlate to the videos in order of 
 
     This effectively turns your phone into a cellular router allowing for any device using 802.11 can connect to your pone to use the internet
 
+# Mobile Device Connectiviy 1.4 #
+
+- Bluetooth Pairing
+    Built in security to prevent malition bluetoth connections
+
+    Usually requires a pin to verify you are connecting to the right device 
+
+    typically you only need to pait one time and future connections should be automatic
+
+    Steps may vary based on manufacturer
+- Bluetooth Pairing Process
+    Enable Bluetooth on both devices
+
+    Set device to discoverable mode
+
+    Select discovered device
+
+    Confirm or enter PIN (Personal Identification Number)
+- GPS (Global Positioning System)
+    Created by the US Department of Defense
+    
+    With at least 4 satellites in view we can begin to have precise navigation
+
+    Determines locations based on timing diffreces between the satellites
+
+    Our Phones on top of using GPS to determine location can use WiFi and Cellular towers as well to locate our device
+- MDM (Mobile Device Management)
+    manage company-owned and user-owned mobile devices
+
+    Centralized managment of mobile devices 
+
+    set Policies on apps, data, camera, etc.
+
+    Allows for partition of user device to increase securrity 
+- MDM Configurations
+    Allows for Global Configurations on all mobile devices 
+
+    This is helpful for things like Email configuration for corperations to ensure every user has access
+
+    Also can enforce app restrictions to allow or restrict app instillations or prevent unauthorized app usage
+# Mobile Device Configurations 1.4 #
+
+- Configuring a mobile Device
+    Many settings on a monile device are preconfigured like your telephone and text messages
+
+    Email is handled diffrently across all corporations and configurations can vary
+
+    You may also need to configure Data synchronization across the mobile devices within your organization to something like a cloud server for important backup and recovery of company data
+- Microsoft 365
+    Microsofts email services are Outlook and Exchange 
+
+    You must authenticate with a username and password for access to this service
+
+    You can also synchronize what data is backed up for each user including the main, contacts, calender, reminders and notes
+
+    This is the same process for Google workspace formerly known as G Suite
+- iCLoud
+    This is an integrated servie within the ios and iPadOS enviorment
+
+    Similar to many sevices you must sign in with a username and password 
+
+    This service also has extensive synchronization options to customize what data should be backed up
+
+    Synchonizes to macOS to easily backup incase of a lost ios device just log into your icloud account and your data will automatically download
+- Syncronizing Data
+    Data types include Mail, Pictures, music, video, Calender, Contacts, etc.
+
+    Data caps and transfer costs can be expensive and can be done using cellular or wifi with 802.11 
+
+    You are able to configure the ability to do cellular downloads to prevent excess use of expensive data
+
+    It is almost always cheaper to use Wifi for downloads than using Cellular networks
+

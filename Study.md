@@ -98,3 +98,38 @@ This Document will be broken in chucks that correlate to the videos in order of 
     Another type of use case for a digitizer would be in the case of a touchscreen.
 
 
+
+# Connecting Mobile Devices 1.3 #
+
+- USB (Universal Serial Bus) 
+    High speed wired communication used for charging and data transfer
+
+    Micro-USB is a smaller USB connectyion and is common worldwide
+
+    Older devices may use a mini USB which is slightly larger
+
+    Newer devices may use USB-C which is a 24 pin double sided USB coinnector capable of acting as diffrent signals but using the same connection (USB 2.0/3.0/3.1/4). The USB-C can transmit DisplayPort, HDMI and thunderbolt connections
+- Lightning Connections
+    This is an apple proprietary connection that uses a 8pin digital signal and is used on Iphone and ipad in their older devices
+
+    Some advantages over micro-USB are that it has a higher power output, is reversable and is a simpler design
+- Serial Interfaces
+    DB-9 also called DE-9 is a commonly used serial connection before universal serial bus standards. It was commonly used to send RS-232 signals  which has been an industry standard since 1969
+
+    These serial communication standards are mostly used for modem connections
+
+    Now these are used as configuration ports on switches, routers firewalls etc but you will most likely need to use a converter cable from USB to DB-9 since these ports no longer exist on most laptops
+- NFC (Near Field Communication)
+    This is built in to many phones today and facilitates the ability to send small amounts of data over a limited area.
+
+    Things like payment systems, Air drop and identity verification are all uses for NFC today
+
+    Note they use short range transfers with encryption support
+- Bluetooth
+    This is a high speed communication over short distance PAN (Personal Area Network)
+
+    Connects devices to smartphones, Tethering, headsets, health monitoring, smart watches and more
+- Hotspot
+    You can turn you phone into a wifi hotspot allowiong anyone to connect to your phone using 802.11 
+
+    Not all phones support this hotspot connectivity and it may cost more to unlock this feature from your provider

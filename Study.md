@@ -54,3 +54,47 @@ This Document will be broken in chucks that correlate to the videos in order of 
     Examples of this are like tap to pay on our phones or smart watches
 
 # Laptop Displays 1.2 #
+
+- Portable LCD
+    LCD stands for liquid crystal display
+
+    The Main advantages are that it is lightweight, uses low power and relatively inexpensive
+
+    The main disadvantages are that true blacks can be difficult due to the need for light to shine in frome behind as well as
+    the need for seperate backlights (Florescent, LED, etc.) which are difficult to replace
+- LCD Technologies
+    TN (Twisted Newmatic LCD) original LCD tech, Fast response time however has bad viewing angles
+
+    IPS (In plane Switching LCD) Excellent color representatiion but is more expansive o produce than the TN displays
+
+    VA (Vertical alignment LCD) A good compromise between TN and IPS displays with good color representation but a slower response time than the TN Displays
+
+    OLED (Organic Light Emitting Diode) this is an organic compound that when recieving electic current will light up. The main advantages of an OLED Display are that it is thinner and lighter while still being more flexible not even requiring a glass front screen and there is no backlight in these diplays. These displays are moslty found in tablets, phone and smart watches. They have very accurate color representation but come with a cost a bit higher than LCD's
+- Wi-Fi antennas
+    The Laptop displays will very likely have multiple antennas inside due to this being the highest part of your laptop. 
+    
+    Wrapped around the laptop screen you can find antenna wires for WiFi (Main and aux) as well as Bluetooth 
+- Webcam
+    Many laptops have built in cameras abkle to do video capture. 
+    
+    Most are located at the top center and include the capability of both audio and video 
+
+    This camera and microphone will typically come with specialized drivers and software to allow them to run
+- Flourescent vs. LED backlights
+    CCFL (Cold Cathode Flourescent Lamp) Requires higher voltage and power, adds thickness to the display, no longer a common backlight but will be found in oulder laptops
+
+    LED-Backlight LCD Display use LEDs instead of flourescent by using LEDs around the edges of the screen and an array of LEDs behind the screen. The latest laptops are LED-Backlit.
+- Backlight and inverters
+    If you are working with one of the older LCD screens using CCFL you might find a converter. This is due to the lights needing AC power but our laptops will use DC power.
+
+    Therefore thes convertes allow for the lights to properly be powered without issue 
+
+    One way to determine if your Backlight has failed is to point a flashlight at the screen if you can make out some of the information on the screen it is likely your screen is fine but the backlight itself has failed
+
+    For CCFL displays you may be able to just replace the converter to fix the problem but on other dispalys you might have to replace the whole screen you will have to check the documentation to determine what to do for your model.
+-Digitizer
+    If you are using a hybrid type laptop (One with a keyboard tablet type setup) you might use something like a pen device to give inputs this is useful for graphical type input and this type of input is possible due to a part called a digitizer by converting analog input into digital signals that the computer to use.
+
+    Another type of use case for a digitizer would be in the case of a touchscreen.
+
+

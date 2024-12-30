@@ -486,22 +486,74 @@ This Document will be broken in chucks that correlate to the videos in order of 
 
     Most servers running rdp are windows however there are applications for almost all opperating Systems in order to use rdp
 
+
 # Network Devices 2.2 #
 
 - Routers
-- switches
-- Unmanaged switches
-- Managed switches
-- Access Points
+    Function: Direct traffic between IP subnets. Routers are responsible for determining the best path for data packets to travel across networks.
+    
+    Layer: Routers operate at Layer 3 (Network Layer) of the OSI model, using IP addresses to forward data.
+    
+    Use: Commonly used to connect different networks, such as connecting a local area network (LAN) to the internet (Wide Area Network, WAN).
+- Layer 3 Switches
+    Function: A switch that can perform some routing tasks in addition to the basic switching functionality.
+    
+    Difference from Routers: Layer 3 switches typically operate faster than traditional routers and can manage routing between VLANs (Virtual LANs).
+- Unmanaged Switches
+    Function: Basic switches that operate with minimal configuration. 
+    
+    Features: No control over traffic management, VLAN configurations, or security settings. Best for small networks that dont require complex configurations.
+- Managed Switches
+    Function: Switches that offer advanced features such as VLAN support, traffic management, port security, and monitoring.
+    
+    Use: Ideal for larger networks where you need to control the flow of data and ensure network security and performance.
+- Access Points (APs)
+    Function: Devices that allow wireless devices to connect to a wired network via Wi-Fi.
+    
+    Use: Commonly used in Wi-Fi networks in offices, homes, or public spaces to provide internet connectivity for mobile devices.
 - Cable Infrastructure
+    Function: Refers to the physical cables used to carry data between devices. Common types include copper (Ethernet) and fiber optic cables.
+    
+    Use: Ensures that data can travel between devices, switches, and routers in the network.
 - Patch Panels
-- firewalls
-- Power Over Ethernet (POE)
-- POE switch
-- Types of POE
+    Function: A centralized device that manages and organizes the cabling in a network.
+    
+    Use: Patch panels allow network administrators to easily connect, disconnect, and reorganize network connections.
+- Firewalls
+    Function: Devices or software that monitor and control incoming and outgoing network traffic based on security rules.
+    
+    Use: They act as a barrier between a trusted network and untrusted networks (like the internet) to prevent unauthorized access and threats.
+- Power over Ethernet (PoE)
+    Function: A technology that allows network cables to carry electrical power, along with data, to remote devices such as IP cameras, phones, and wireless access points.
+    
+    Benefits: Eliminates the need for separate power cables, simplifying installation and reducing costs.
+- PoE Switch
+    Function: A managed or unmanaged switch that supports Power over Ethernet (PoE), providing both data and power to connected devices through the same Ethernet cable.
+    
+    Use: Useful for powering devices like IP cameras or wireless access points without requiring additional power outlets.
+- Types of PoE
+    IEEE 802.3af: Provides up to 15.4 watts of power per port.
+    
+    IEEE 802.3at (PoE+): Provides up to 25.5 watts of power per port.
+    
+    IEEE 802.3bt (PoE++): Provides up to 60 watts (PoE++) or 100 watts (PoE+++) per port, suitable for higher power devices like video conferencing systems.
 - Hubs
-- Cable modem
-- DSL modem
-- Optical Network terminal (ONT)
+    Function: Basic networking devices that connect multiple computers or devices in a network. Hubs broadcast all incoming data to all connected devices.
+    
+    Limitation: Hubs are inefficient because they send data to all ports, which can lead to collisions and network congestion. Replaced by switches in most modern networks.
+- Cable Modem
+    Function: A device that connects a computer or network to the internet using a coaxial cable.
+    
+    Use: Used by Internet Service Providers (ISPs) for broadband internet connectivity via cable networks. 
+- DSL Modem
+    Function: A device that connects a computer or network to the internet via Digital Subscriber Line (DSL) over a telephone line.
+    
+    Use: Often used in residential or small business settings for internet access over telephone lines.
+- Optical Network Terminal (ONT)
+    Function: A device used in fiber optic networks that converts the optical signal from fiber cables into electrical signals used by devices.
+    
+    Use: Common in fiber-optic internet services where the ONT connects the fiber optic line from the provider to a customers network, allowing for high-speed internet.
 - Network Interface Card (NIC)
-
+    Function: A hardware component that allows a device (like a computer or server) to connect to a network.
+    
+    Use: NICs are essential for network connectivity, whether over wired (Ethernet) or wireless (Wi-Fi) connections. 

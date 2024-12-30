@@ -344,4 +344,149 @@ This Document will be broken in chucks that correlate to the videos in order of 
 
     As well as a formal process to tear down that connection as well
 
-    
+    Sometimes refered to as Reliable delivery this is because it responds with a verification that a message has been recieved
+
+    TCP is also capable of tracking the order of messages and is able to reorder them and track what has been recieved in order to ensure complete data transfer
+
+    Lastly  TCP is able to do data flow managment which allows you to throttle how much a device feels it is getting data too quickly it can slow down the process in order to receinve the data at a more reasonable Rates
+- UDP (User Datagram Protocol)
+    This is a connectionless process in which there is no formal way to open or close a connection
+
+    Due to there no specified connection there is also no way to verify the data has been recieved like with TCP therefore this is sometimes refered to an "Unreliable" delivery
+
+    There is no reordering of data or retransmissions if data was not received properly due to not having a formal connection in this protocol
+
+    Unlike TCP with UDP there is no flow Management and the sender decides the data transfer rate
+- Examples of Communications using UDP
+    UDP is most associated with Real-time Communication for example phone calls
+
+    In a situation where you need to know instant status at all times there is no time to stop and resend old data since time doesnt stop for your network
+
+    Dynamic Host Configuration Protocol (DHCP) is an example of a connectionless protocol this is how we automatically assign IP addresses to our devices
+
+    Trivial File transfer Protocol (TFTP) This is anothter example of a use case for a UDP connectionless protocol
+
+    Due to there not being a way to validata ll the data was reieved its up to the application to keep track and decide if other steps are neccesary 
+- Examples of Communications using TCP
+    All connection-oriented protocols the prefer a "return reciept" might use TCP 
+
+    HTTPS (Hypertext transfer Protocol Secure) is an example of this ensuring all of our web data is recieved when we tansfer it
+
+    SSH (Secure Shell) This is another example in which we can connect via to other termanals via encryption
+- Speedy delivery
+    When delivery of data from one IP to another on a network we need to decide where this data will go and how it will be processed
+
+    In addition to the IP adress with TCP and UDP we have a Port number which is sort of like a room number within our IP 
+
+    This allows us to direct the data directly to the service that is looking for the information
+- Using ports
+    To use Ports from one device to another the reciept server and the client sending the data will need their IP address, Protocol(TCP/UDP) and the server application port number
+
+    When dealing with Ports there are two types Ephemeral and Non-Ephemeral Ports
+
+    Non-Ephemeral ports are port numbers that are well know and typically never change these ports typically range from 0 - 1023 and are for services like HTTP and HTTPS
+
+    Ephemeral ports are much more temporaty ports these are ports that are opened to send data to a server client or to host a temp application and are determined in real time by the client these ports are typically located in the range of 1024 - 65535
+
+    Most services will use Non-Ephemeral port numbers but this is not alwasy the case some services might use dynamic port numbers depending on the actions it is taking
+
+    Port numbers are for cmmunication and not security by using an odd port number it will not hide the application since you can search for open ports
+
+# Common Network Ports 2.1 #
+
+- Port numbers
+    It is important to have well know port numbers for applications running on a system this is so the client and the server can communicate on this port and transfer data effectively
+
+    It is also important for any firewall that may be in the middle of that communication many firewalls will block any traffic from an unverified port addresses
+
+    There are many known typical port numbers and it will seem like strick memorization at first but the test may ask about a specific service and what port it may run on so its impprtant to know
+
+- File Transfer Protocol (FTP) 
+    is used to move files between systems
+
+    This service is run on two diffrent ports tcp/20 for active mode data aka for actually moving the files
+
+    As well it runs on tcp/21 to control the file transfer itself
+
+    This service typically needs a username and password to authenticate but sometimes allows for generic/anonymous login
+
+    FTP includes features like list, add, delete, etc.
+
+- Secure Shell (SSH)
+    used to access the terminal front end of a server 
+
+    SSH is an ecrypted communication link that runs on tcp/22
+
+    it lookas and acts the same as Telnet
+
+- Telnet 
+    another method to access the terminal front end of a server and runs on tcp/23
+
+    this allows remote login to the server but the major diffrence is this is not ecrypted like SSH was
+
+- Simple Mail Transfer Protocol (SMTP)
+    the most common email service to recieve emails and it runs on tcp/25
+
+    other protocols are used for clients to reveive emails these protocols are IMAP and POP3
+
+- Domain Name System (DNS)
+    our way to convert web addresses to real IPs for our computer to communicate with and this service typically runs on udp/53
+
+- Dynamic Host Configuration Protocol (DHCP) 
+    This is how we automatically assign IP addresses to new useres on a network and this service runs on udp/67, udp/68
+
+    you will need a DHCP server in order to do this however this functionality is ususally built in to the appliances or routers we already use today
+
+    The DHCP server will have a pool of IP addresses that are able to be assinged and when there is a new user they get applied in real time
+
+    Each Ip assigned is given a lease and it must renew at a set interval
+
+    If necessary you can also use DHCP reservations to maintain a specific IP address on certain devices this is typically for devices that make up the nework desired functions and may communicate with other devices
+- HTTP & HTTPS
+    Hypertext Transfer Protocol is our way to communicate in the browser and by other applications 
+
+    HTTP runs on tcp/80
+
+    HTTPS runs on tcp/443 and has encryption
+- POP3/IMAP
+    These services authenticate and recieve email messages from an email server
+
+    POP3 or the Post office Protocol version 3 runs on tcp/110 and has basic mail transfer functionality this service doesnt allow for synchronized inboxes across devices
+
+    IMAP or INternet Message access protocol v4 runs on tcp/143 and this allows for synced inboxes across devices
+- Server Message Block (SMB)
+    This is a protocol used by Microsoft to transer files and information between systems using that opperating system like file sharing or printer sharing
+
+    Also called CIFS (common internet file system)
+
+    SMB uses a number of diffrent protocols to communicate and if youre communicating to a older windows machine you ar eprobably using netBIOS ove tcp
+
+    NetBIOS stands for network basic INput/output system and runs on udp/137 for the name sevices and tcp/139 for the session services
+
+    On most modern windows systems netBIOS isnt used they communicate directly using tcp/IP typically at port tcp/445
+- Simple Network Management Protocol (SNMP)
+    This service runs on a network and can gather statistics froma network device when querried
+
+    the querry service runs on udp/161
+
+    You are also able to set up indicators for the network called traps that when triggered will send a singal to a set destination 
+
+    traps sercices are run on udp/162
+
+    There are 3 versions to be aware of for SNMP 
+
+    version 1 is the origninal and communicates with structored data in the clear or unencrypted
+
+    version 2 includes data type enhancementents allowing for bulk data transfers but is also done in the clear
+
+    version 3 allowed for message integrity of data becasue it includes Authenitication and encryption
+- lightweight Directory Access Protocol (LDAP)
+    Used to manage directories and runs on tcp/389
+
+    commonly used in microsoft active Directory
+- Remote Desktop Connection (RDP)
+    This allows for remote access to someone elses desktop 
+
+    commonly uses tcp/3389
+
+    Most servers running rdp are windows however there are applications for almost all opperating Systems in order to use rdp

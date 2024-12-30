@@ -303,3 +303,45 @@ This Document will be broken in chucks that correlate to the videos in order of 
 
     It is almost always cheaper to use Wifi for downloads than using Cellular networks
 
+# Introduction to IP 2.1 #
+
+- A series of moving vans
+    Efficielnty move large amounts of data using a shipping truck
+
+    The network topology is the road this would be the ethernet, DSL and cable system
+
+    The truck is the internet Protocol (IP) and the roads are designed for this specific truck
+
+    The boxes in the trucks hold all of your data like TCP and UDP
+
+    Inside the boxes are more things including application data or specific funtions of your network
+- IP (Internet Protocol)
+    To send data from your device to a server it would work in this way
+
+    Ethernet Header (this is coming from your device)
+
+    Ethernet Payload (This is where the data packages are held and being transfered)
+
+    Ethernet Trailer (This is the destination and this is where the data gets broken down and processed)
+
+    Within the Ethernet payload it consists of the IP header and the IP Payload (which contains our data) in that order
+
+    Within the IP Payload we could have either TCP Data which would contain a TCP Header and a TCP Payload
+
+    The TCP Payload can be broken up into many different types of data including HTTP
+- TCP and UDP 
+    TCP and UDP are transported inside of the IP and is encapsulated withint the IP Protocol
+
+    These are both diffrent ways to move data from place to place and have diffrent features for different applications
+
+    You may hear TCP and UDP talked about existing in the OSI Layer 4 which is the transport layer of the OSI Model
+
+    TCP and UDP allow for additional functionality of the ethernet protocol like Multiplexing which is the ability to use many differen applications at the same time communicating to different servers
+- TCP (Transmission Control Protocol)
+    We often refer to this as a connection oriented protocol 
+    
+    that is becasue there is a formal connection that needs to be set up before information can flow from one device to the other
+
+    As well as a formal process to tear down that connection as well
+
+    

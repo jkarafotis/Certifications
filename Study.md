@@ -270,6 +270,7 @@ This Document will be broken in chucks that correlate to the videos in order of 
     This is helpful for things like Email configuration for corperations to ensure every user has access
 
     Also can enforce app restrictions to allow or restrict app instillations or prevent unauthorized app usage
+
 # Mobile Device Configurations 1.4 #
 
 - Configuring a mobile Device
@@ -400,7 +401,6 @@ This Document will be broken in chucks that correlate to the videos in order of 
     It is also important for any firewall that may be in the middle of that communication many firewalls will block any traffic from an unverified port addresses
 
     There are many known typical port numbers and it will seem like strick memorization at first but the test may ask about a specific service and what port it may run on so its impprtant to know
-
 - File Transfer Protocol (FTP) 
     is used to move files between systems
 
@@ -411,27 +411,22 @@ This Document will be broken in chucks that correlate to the videos in order of 
     This service typically needs a username and password to authenticate but sometimes allows for generic/anonymous login
 
     FTP includes features like list, add, delete, etc.
-
 - Secure Shell (SSH)
     used to access the terminal front end of a server 
 
     SSH is an ecrypted communication link that runs on tcp/22
 
     it lookas and acts the same as Telnet
-
 - Telnet 
     another method to access the terminal front end of a server and runs on tcp/23
 
     this allows remote login to the server but the major diffrence is this is not ecrypted like SSH was
-
 - Simple Mail Transfer Protocol (SMTP)
     the most common email service to recieve emails and it runs on tcp/25
 
     other protocols are used for clients to reveive emails these protocols are IMAP and POP3
-
 - Domain Name System (DNS)
     our way to convert web addresses to real IPs for our computer to communicate with and this service typically runs on udp/53
-
 - Dynamic Host Configuration Protocol (DHCP) 
     This is how we automatically assign IP addresses to new useres on a network and this service runs on udp/67, udp/68
 
@@ -490,3 +485,23 @@ This Document will be broken in chucks that correlate to the videos in order of 
     commonly uses tcp/3389
 
     Most servers running rdp are windows however there are applications for almost all opperating Systems in order to use rdp
+
+# Network Devices 2.2 #
+
+- Routers
+- switches
+- Unmanaged switches
+- Managed switches
+- Access Points
+- Cable Infrastructure
+- Patch Panels
+- firewalls
+- Power Over Ethernet (POE)
+- POE switch
+- Types of POE
+- Hubs
+- Cable modem
+- DSL modem
+- Optical Network terminal (ONT)
+- Network Interface Card (NIC)
+
